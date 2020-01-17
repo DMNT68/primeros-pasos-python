@@ -25,7 +25,6 @@ si prom > 6 entondes
     aprueba
 sino
     reprueba
-'''
 
 nota1 = int(input("Ingrese la primera nota: "))
 nota2 = int(input("Ingrese la segunda nota: "))
@@ -39,3 +38,22 @@ if (prom>6):
     print("Aprobado")
 else:
     print("Desaprobado")
+'''
+num = int(input("Ingresar nota: "))
+sum = 0
+cant = 0
+while (num != 0):
+
+    if(num>=0 and num <=10):
+        sum = num + sum
+        cant = cant + 1
+        num = int(input("Ingresar nota: "))
+    else:
+        print("Valor fuera del rango por favor ingrese una nota entre 1 y 10. 0 para salir ")
+        num = int(input("Ingresar nota: "))
+
+print("prom %.2f y cant %i" %(sum,cant))
+
+promedio = sum/cant
+
+print ("promedio final %.2f" %promedio)
