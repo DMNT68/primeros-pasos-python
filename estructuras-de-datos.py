@@ -46,16 +46,16 @@ nombre=["A","N","D","R","E","S","-","S","A","L","G","A","D","O"]
 
 # "del" Borra elementos o listas enteras
 
-mi_lista = [2,4,6,8,5,3,1]
-print(mi_lista)
-# del mi_lista[1:5]
-# # del mi_lista # Borra la lista entera
+# mi_lista = [2,4,6,8,5,3,1]
 # print(mi_lista)
+# # del mi_lista[1:5]
+# # # del mi_lista # Borra la lista entera
+# # print(mi_lista)
 
-# "remove" quita un elemento indicado
-# mi_lista.remove(5)
+# # "remove" quita un elemento indicado
+# # mi_lista.remove(5)
+# # print(mi_lista)
+
+# # "pop" Quita elementos por su indice, si no se especifica un indice, se quita el ultimo elemento
+# mi_lista.pop(5)
 # print(mi_lista)
-
-# "pop" Quita elementos por su indice, si no se especifica un indice, se quita el ultimo elemento
-mi_lista.pop(5)
-print(mi_lista)
