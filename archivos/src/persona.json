@@ -1,0 +1,11 @@
+{
+    "nombre": "Andres",
+    "apellido": "Salgado",
+    "hobbies": [
+        "Tocar guitarra", "Hacer ejecicio", "Programar"
+    ],
+    "hijos": [
+        { "nombre": "Rufo", "edad": 4 },
+        { "nombre": "Linda", "edad": 10 }
+    ]
+}
